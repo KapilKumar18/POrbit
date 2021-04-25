@@ -1,0 +1,10 @@
+.coming_div{
+    min-height: 100vh;
+}
+
+.coming_content{
+    min-height: 90vh;
+    font-size: 100px;
+    font-weight: bold;
+    color:rgb(231, 227, 227);
+}

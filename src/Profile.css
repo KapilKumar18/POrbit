@@ -1,0 +1,41 @@
+
+.menu{
+	min-height: 90vh;
+	display: flex;
+	border-radius: 30px;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+
+ul{
+	width: 100%;
+}
+
+li{
+	background: transparent !important;
+}
+
+.list-group-flush>.list-group-item{
+	border-bottom: 1px solid lightgrey;
+	text-align: initial;
+	text-decoration: none !important;
+	font-size: 20px;
+	background: transparent;
+}
+
+.list-group-flush>.list-group-item:last-child{
+	font-size: 20px;	
+	border: none;
+}
+
+.list-group-item.active::after{
+	content: '';
+	position: absolute;
+	right: -60px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #fff;
+}
