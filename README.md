@@ -1,4 +1,4 @@
-Perfome the below steps:-
+Perform the below steps:-
 
 npm install
 
