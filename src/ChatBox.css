@@ -1,0 +1,72 @@
+.chat_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  width: 300px;
+  cursor: pointer;
+}
+
+.chat_popup {
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: 5px 5px 20px 5px lightgrey;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  bottom: 80px;
+}
+
+.active {
+  position: relative;
+  cursor: pointer;
+}
+
+.active:after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: rgb(83, 187, 83);
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  border-radius: 50%;
+}
+
+.chatbox{
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: 5px 5px 20px 5px lightgrey;
+  position: absolute;
+  z-index: 999;
+  right: 300px;
+  bottom: 80px;
+}
+
+.bottom{
+  bottom: 10px;
+  width: 90%;
+}
+
+.fa-send{
+  bottom: 15px;
+  right: 0;
+}
+
+.fa-times{
+  cursor: pointer;
+}
+
+.chat_user{
+  position: sticky;
+  top: 0;
+}
+
+.chat_current_user{
+  position: sticky;
+  bottom: 0;
+}

@@ -1,0 +1,44 @@
+.profile_img {
+  height: 200px;
+  width: 200px;
+}
+
+.user_switch {
+  cursor: pointer;
+}
+
+.profile {
+  height: 100vh;
+}
+
+.user_popup {
+  width: 400px;
+  height: 480px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: 5px 5px 50px 5px lightgrey;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 100px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.current_user {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.current_user img {
+  height: 120px;
+  width: 120px;
+}
+
+.btn {
+  width: 100%;
+}
